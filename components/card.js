@@ -55,8 +55,8 @@ export default function Home({ user }) {
         {
           user.blog && (
             <div className="card-item">
-              <img width="30" height="30" src="icons/location.svg"/>
-              <div>{user.location}</div>
+              <img width="30" height="30" src="icons/location.svg" style={{marginLeft: '-3px'}}/>
+              <div style={{marginLeft: '-3px'}}>{user.location}</div>
             </div>
           )
         }
