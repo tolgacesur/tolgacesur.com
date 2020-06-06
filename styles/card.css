@@ -1,0 +1,50 @@
+.card {
+  width: 600px;
+  padding: 20px;
+  background-color: #2d2d2d;
+  border-radius: 10px;
+}
+
+.card .header {
+  text-align: center;
+}
+
+.card .header .avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+}
+
+.card .card-item {
+  display: flex;
+  align-items: center;
+}
+
+.card .card-item img {
+  margin-right: 3px;
+}
+
+.card .bio {
+  text-align: center;
+}
+
+.card .info {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.card .social {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.card .hire-me {
+  text-align: center;
+}
+
+@media (max-width: 420px) {
+  .card {
+      width: 350px;
+  }
+}
