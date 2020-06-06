@@ -43,7 +43,7 @@
   text-align: center;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 620px) {
   .card {
       width: 350px;
   }

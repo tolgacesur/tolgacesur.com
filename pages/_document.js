@@ -19,11 +19,11 @@ class MainDocument extends Document {
         <body>
           <div className="main">
             <Main />
+            <footer>
+              <img width="30" height="30" src="icons/1f48e.png"/>
+            </footer>
           </div>
           <NextScript />
-          <footer>
-            <img width="30" height="30" src="icons/1f48e.png"/>
-          </footer>
         </body>
       </Html>
     )

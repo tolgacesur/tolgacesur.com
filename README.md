@@ -1,6 +1,6 @@
 # A Personal page with your github profile information
 
-[https://tolgacesur.com](https://www.google.com)
+[https://tolgacesur.com](https://tolgacesur.com)
 
 ## About
 
