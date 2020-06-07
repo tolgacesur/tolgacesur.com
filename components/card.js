@@ -8,7 +8,7 @@ export default function Home({ user }) {
     <div className="card">  
       <div className="header">
         <img className="avatar" src={user.avatar_url} alt={user.name}/>
-        <h1>{user.name}</h1>
+        <h1>{user.name || user.login}</h1>
       </div>
 
       {

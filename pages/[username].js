@@ -1,10 +1,16 @@
+import React, { useEffect } from 'react';
 import fetch from 'isomorphic-unfetch';
 import Card from '../components/card';
 import Router from 'next/router';
 
 export default function CustomPage({ user }) {
-  if (!user.name) {
-    Router.push('/404');
+  useEffect(() => {
+    if (!user.login) {
+      Router.push('/404');
+    }
+  }, []);
+
+  if (!user.login) {
     return null;
   }
 
