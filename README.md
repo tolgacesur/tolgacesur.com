@@ -6,6 +6,14 @@
 
 You can create your own personal web page using the information on your Github profile.
 
+#### Demo
+
+Enter your `github username` instead of `tolgacesur` like below.
+
+```bash
+https://tolgacesur.com/tolgacesur
+```
+
 ### Install packages
 
 ```bash
