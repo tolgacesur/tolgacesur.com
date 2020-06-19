@@ -1,3 +1,4 @@
 export default {
-    GITHUB_USERNAME: 'tolgacesur'
+    GITHUB_USERNAME: 'tolgacesur',
+    BUYMECOFFE_USERNAME: 'tolga',
 };
